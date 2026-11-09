@@ -1,0 +1,183 @@
+.banner {
+    /* background: #f0f0f0; */
+    background: #006fcf;
+    color: white;
+    font-family: 'Benton Sans';
+    font-weight: normal;
+    text-align: left;
+    line-height: 1;
+}
+/* replay */
+.fade{
+    background: #006fcf;
+}
+.copy .strong{
+    font-weight: bold;
+}
+
+.background.blue{
+    background: #051757;
+    width: calc(100% - 10px);
+    right: 0;
+    transform-origin: 100% 0%;
+}
+.card{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 111px;
+    height: 70px;
+    border-radius: 7px;
+    background: url(card-1.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    margin: auto;
+}
+.card .shimmer{
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.2) 25%, rgba(255,255,255,0.75) 50%, rgba(255,255,255,0.2) 75%, rgba(255,255,255,0) 100%);
+    transform: skewX(20deg);
+    left: 100%;
+    opacity: 0.3;
+    /* mix-blend-tmode: overlay; */
+}
+.frame2 .card .shimmer,
+.frame5 .card .shimmer{
+    opacity: 1;
+}
+.frame3 .card{
+    background-image: url(card-2.jpg);
+}
+.frame4 .card{
+    background-image: url(card-3.jpg);
+}
+.frame5 .card{
+    background-image: url(card-4.jpg);
+}
+
+.copy{
+    left: 140px;
+    position: absolute;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 25px;
+    letter-spacing: -0.02em;
+}
+
+.frame1 .copy,
+.endframe .copy{
+    font-size: 28px;
+    left: 30px;
+}
+
+.frame5 .copy{
+    padding-bottom: 7px;
+}
+
+.heading{
+    font-size: 19px;
+    font-weight: bold;
+    width: 100%;
+}
+.frame2 .heading {
+	position: absolute;
+	top: 12px;
+	font-size: 19px;
+	font-weight: bold;
+	width: 728px;
+}
+.frame3 .heading {
+	position: absolute;
+	top: 12px;
+	font-size: 19px;
+	font-weight: bold;
+	width: 728px;
+}
+.frame3 .terms {
+	bottom: 8px;
+}
+.frame4 .heading {
+	position: absolute;
+	top: 12px;
+	font-size: 19px;
+	font-weight: bold;
+	width: 728px;
+}
+.frame5 .heading {
+	position: absolute;
+	top: 12px;
+	font-size: 19px;
+	font-weight: bold;
+	width: 728px;
+}
+.frame4 .sub-heading, .frame3 .sub-heading {
+	margin-top: 10px;
+}
+.frame5 .sub-heading {
+	margin-top: 15px;
+}
+.frame4 .terms, .frame5 .terms {
+	bottom: 8px;
+}
+.sub-heading, .sub-heading2 {
+    margin-top: 5px;
+    width: 100%;
+}
+.sub-heading2 {
+    margin-top: -25px;
+}
+
+
+.line{
+    position: relative;
+    display: block;
+}
+
+
+
+/* - TERMS --- */
+.terms{
+    position: absolute;
+    bottom: 5px;
+    left: 140px;
+    width: 490px;
+    text-align: left;
+    font-size: 9px;
+}
+.frame4 .terms, .frame5 .terms{
+    text-align: left;
+}
+
+/* - CTA --- */
+.cta{
+    position: absolute;
+    top: 33px;
+    right: 120px;
+    font-size: 13px;
+    font-weight: 500;
+    display: inline;
+    line-height: 1;
+    padding: 0.6em 0.8em 0.5em 1em;
+    border-radius: 0.4em;
+    background: #006ed3;
+    overflow: hidden;
+    transition: background 0.3s ease-out, color 0.3s ease-out;
+}
+.cta.over{
+    background-color: white;
+    color: #051757;
+}
+
+/* - LOGO --- */
+.logo{
+    width: auto;
+    height: 70px;
+    top: 0;
+    right: 0;
+    margin: 10px;
+}
