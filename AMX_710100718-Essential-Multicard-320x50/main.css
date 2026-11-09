@@ -1,0 +1,201 @@
+.banner {
+    /* background: #f0f0f0; */
+    background: #006fcf;
+    color: white;
+    font-family: 'Benton Sans';
+    font-weight: normal;
+    text-align: left;
+    line-height: 1;
+}
+/* replay */
+.fade{
+    background: #006fcf;
+}
+.copy .strong{
+    font-weight: bold;
+}
+
+.background.blue{
+    background: #051757;
+    width: calc(100% - 5px);
+    right: 0;
+    transform-origin: 100% 0%;
+}
+.card{
+    position: absolute;
+    top: 6px;
+    left: 10px;
+    width: 62px;
+    height: 39px;
+    border-radius: 2px;
+    background: url(card-1.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    margin: auto;
+}
+.card .shimmer{
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.2) 25%, rgba(255,255,255,0.75) 50%, rgba(255,255,255,0.2) 75%, rgba(255,255,255,0) 100%);
+    transform: skewX(20deg);
+    left: 100%;
+    opacity: 0.3;
+    /* mix-blend-tmode: overlay; */
+}
+.frame2 .card .shimmer,
+.frame5 .card .shimmer{
+    opacity: 1;
+}
+.frame2 .card{
+    background-image: url(card-1.jpg);
+	width: 42px;
+    height: 27px;
+	left: 10px;
+	top: 4px;
+}
+.frame3 .card{
+    background-image: url(card-2.jpg);
+}
+.frame4 .card{
+    background-image: url(card-3.jpg);
+}
+.frame5 .card{
+    background-image: url(card-4.jpg);
+}
+
+.copy{
+    left: 0px;
+    position: absolute;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    font-size: 16px;
+    letter-spacing: -0.02em;
+}
+
+.frame1 .copy,
+.endframe .copy{
+    font-size: 15px;
+    left: 11px;
+}
+
+.frame5 .copy{
+    padding-bottom: 7px;
+}
+
+.heading{
+    font-size: 12px;
+    font-weight: bold;
+    width: 100%;
+    margin-left: 78px;
+}
+.frame4 .heading {
+    font-size: 9px;
+	position: absolute;
+	top: 8px;
+	margin-left: 78px;
+}
+.frame5 .heading {
+    font-size: 11px;
+	position: absolute;
+	top: 6px;
+	margin-left: 78px;
+}
+.sub-heading, .sub-heading2 {
+    font-size: 12px;
+    margin-top: 4px;
+    width: 100%;
+    margin-left: 78px;
+}
+.frame2 .heading {
+	width:320px;
+	position:absolute;
+	top:8px;
+	left:0;
+	font-size:8px;
+	margin-left: 61px;
+}
+.frame2 .sub-heading, .frame2 .sub-heading2 {
+	width:320px;
+	position:absolute;
+	top:14px;
+	font-size: 12px;
+	margin-left: 61px;
+}
+.frame2 .terms {
+	left: 10px;
+}
+.frame3 .terms {
+	right: 5px;
+	font-size: 6px;
+	bottom: 4px;
+}
+.frame4 .terms {
+	position: absolute;
+	bottom: 6px;
+}
+.frame4 .sub-heading {
+    font-size: 9px;
+	margin-top: 0px;
+}
+.frame5 .sub-heading {
+    font-size: 11px;
+	 margin-top: 8px;
+}
+.frame5 .terms {
+	font-size: 6px;
+	position: absolute;
+	bottom: 3px;
+}
+
+
+.line{
+    position: relative;
+    display: block;
+}
+
+/* - TERMS --- */
+.terms{
+    position: absolute;
+    bottom: 3px;
+    left: 78px;
+    /*width: 237px;*/
+    text-align: left;
+    font-size: 6px;
+}
+.frame3 .terms {
+    text-align: right;
+}
+
+/* - CTA --- */
+.cta{
+    position: absolute;
+    top: 28px;
+    right: 71px;
+    font-size: 6px;
+    font-weight: 500;
+    display: inline;
+    line-height: 1;
+    padding: 0.6em 0.8em 0.5em 1em;
+    border-radius: 0.4em;
+    background: #006ed3;
+    overflow: hidden;
+    transition: background 0.3s ease-out, color 0.3s ease-out;
+}
+.cta.over{
+    background-color: white;
+    color: #051757;
+}
+
+/* - LOGO --- */
+.logo{
+    width: auto;	
+    height: 28px;
+    top: 0;
+    right: 0;
+    margin: 5px;
+}
