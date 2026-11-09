@@ -1,0 +1,142 @@
+.banner {
+    /* background: #f0f0f0; */
+    background: #006fcf;
+    color: white;
+    font-family: 'Benton Sans';
+    font-weight: normal;
+    text-align: center;
+    line-height: 1;
+}
+/* replay */
+.fade{
+    background: #006fcf;
+}
+.copy .strong{
+    font-weight: bold;
+}
+
+.background.blue{
+    background: #051757;
+    height: calc(100% - 10px);
+}
+.card{
+    position: absolute;
+	top: 252px;
+	left: 19px;
+    width: 122px;
+    height: 78px;
+    border-radius: 4px;
+    background: url(card-1.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    margin: auto;
+}
+.card .shimmer{
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.2) 25%, rgba(255,255,255,0.75) 50%, rgba(255,255,255,0.2) 75%, rgba(255,255,255,0) 100%);
+    transform: skewX(20deg);
+    left: 100%;
+    opacity: 0.3;
+    /* mix-blend-mode: overlay; */
+}
+.frame2 .card .shimmer,
+.frame5 .card .shimmer{
+    opacity: 1;
+}
+.frame3 .card{
+    background-image: url(card-2.jpg);
+}
+.frame4 .card{
+    background-image: url(card-3.jpg);
+}
+.frame5 .card{
+    background-image: url(card-4.jpg);
+}
+
+
+.frame1,
+.frame2,
+.frame3,
+.frame4,
+.frame5,
+.endframe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.copy{
+    margin-top: 20px;
+    font-size: 21px;
+	line-height: 23px;
+    letter-spacing: -0.025em;
+}
+
+.frame1 .copy,
+.endframe .copy{
+    margin-top: 10px;
+    font-size: 23px;
+	line-height: 25px;
+}
+.endframe .copy{
+    margin-top: 15px;
+}
+
+.heading{
+    font-weight: bold;
+    position: absolute;
+    top: 120px;
+    left: 0;
+    width: 100%;
+}
+.sub-heading, .sub-heading2 {
+    font-size: 21px;
+    position: absolute;
+    top: 348px;
+    left: 0;
+    width: 100%;
+}
+
+.line{
+    position: relative;
+    display: block;
+}
+
+/* - TERMS --- */
+.terms{
+    position: absolute;
+    bottom: 0;
+    padding: 15px 5px 23px;
+    font-size: 10px;
+}
+
+/* - CTA --- */
+.cta{
+    font-size: 13px;
+    margin: 33px auto 0 auto;
+    font-weight: 500;
+    display: inline;
+    line-height: 1;
+    padding: 0.6em 0.8em 0.5em 1em;
+    border-radius: 0.4em;
+    background: #006ed3;
+    overflow: hidden;
+    transition: background 0.3s ease-out, color 0.3s ease-out;
+}
+.cta.over{
+    background-color: white;
+    color: #051757;
+}
+
+/* - LOGO --- */
+.logo{
+    width: auto;
+    height: 60px;
+    top: 0;
+    right: 0;
+    margin: 10px;
+}
